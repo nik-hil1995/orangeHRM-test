@@ -1,0 +1,105 @@
+Automation Test Scenarios for OrangeHRM Demo Site
+
+1. Login Functionality
+
+Test login with valid credentials.
+
+Test login with invalid credentials (wrong username/password).
+
+Test login with empty username and password fields.
+
+Test login when only the username or password is entered.
+
+Verify the "Forgot your password?" link functionality.
+
+2. Dashboard
+
+Verify that the dashboard loads correctly after login.
+
+Verify that all widgets and links on the dashboard are functional.
+
+Test navigation to other modules (Admin, PIM, Leave, etc.) from the dashboard.
+
+3. User Management (Admin Module)
+
+Verify that a new user can be added successfully.
+
+Test adding a user with incomplete or invalid data.
+
+Verify editing an existing user's details.
+
+Verify deleting a user and ensuring it no longer appears in the list.
+
+Test the search functionality for users with valid and invalid criteria.
+
+4. Employee Management (PIM Module)
+
+Verify adding a new employee with valid data.
+
+Test adding an employee with missing or invalid data.
+
+Verify editing an employee’s personal details.
+
+Verify uploading an employee's photograph.
+
+Verify searching for employees by name, ID, or job title.
+
+5. Leave Management
+
+Verify applying for leave with valid inputs.
+
+Test applying for leave with invalid or incomplete inputs.
+
+Verify that the applied leave appears in the leave list.
+
+Verify approving or rejecting leave requests as an admin.
+
+6. Time Module
+
+Verify adding a timesheet for an employee.
+
+Verify editing and deleting an existing timesheet.
+
+Test searching for timesheets by date range or employee.
+
+7. Recruitment Module
+
+Verify adding a job vacancy with valid data.
+
+Test adding a vacancy with invalid or missing data.
+
+Verify searching for vacancies by job title or hiring manager.
+
+Verify uploading a candidate's resume and personal information.
+
+8. Performance Module
+
+Verify adding a performance review with valid data.
+
+Verify editing and deleting an existing performance review.
+
+Test searching for reviews by employee name or review period.
+
+9. Reports
+
+Verify generating reports with valid filters.
+
+Test generating a report with invalid or incomplete filters.
+
+Verify the download functionality of generated reports.
+
+10. Logout Functionality
+
+Verify that the user can log out successfully.
+
+Test session expiration after a period of inactivity.
+
+Verify that logged-out users cannot access restricted pages.
+
+General Scenarios
+
+Cross-browser testing: Ensure the site works correctly in Chrome, Firefox, Edge, etc.
+
+Responsive design: Verify that the site functions properly on different screen sizes (desktop, tablet, mobile).
+
+Security testing: Verify that sensitive pages require authentication.
